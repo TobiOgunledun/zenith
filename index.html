@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith Wallet</title>
+
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./queries.css">
+
+
+    <!-- :::::ICONS LINK FROM LOCAL TEMPLATE SOURCE OFFLINE:::::: -->
+    <link rel="stylesheet" href="file:///C:/Users/User/Desktop/iTins/icons/fontawesome-free-6.1.1-web/css/all.css">
+    
+    
+    <!-- :::::::::::ICONS-LINK ONLINE:::::::::::::::::: -->
+    <script src="https://kit.fontawesome.com/2bbbf54a3f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <label for="logo">
+            <div class="logo">
+                <img src="./img/header.webp" alt="">
+            </div>
+        </label>
+        <ul id="navMenu">
+            <li><a href="">Docs</a></li>
+            <li><a href="">Medium</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Telegram</a></li>
+            <a href="" style="font-size: inherit;"><button> start trading</button></a>
+        </ul>
+
+        <div class="icon" id="icon">
+            <i class="fa-sharp fa-solid fa-bars" id="open" onclick="showMenu()"></i>
+            <i class="fa-sharp fa-solid fa-xmark" id="close" onclick="hideMenu()"></i>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <header>
+            <h1>
+                DeFi Wallet made easy.
+            </h1>
+            <p>
+                $ZW First ever DeFi Wallet as a Service (WaaS) delivering 
+                a full product suite to enable our users and simplify their processes
+            </p>
+            <div class="btn">
+                <a href=""><button id="btn1">start trading</button></a>
+                <a href="#features"><button>Explore features</button></a>
+            </div>  
+        </header>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="heading">
+                <h1>the unique features</h1>
+            </div>
+            <div class="flexSection">
+                <div class="box">
+                    <div class="img">
+                        <img src="./img/icon1.webp" alt="">
+                    </div>
+                    <h2>trade snipe</h2>
+                    <div class="content">
+                        <p>
+                            Telegram Trade/Snipe Bot. Ability to snipe and trade contract addresses at lightning speed.
+                        </p>
+                        <button>how it works</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="./img/icon2.webp" alt="">
+                    </div>
+                    <h2>deploy</h2>
+                    <div class="content">
+                        <p>
+                            Telegram Deploy Bot. Ability to 
+                            deploy a token within 60 seconds with zero code 
+                            needed. Post-deploy management for full end-to-end control   
+                         </p>
+                        <button>how it works</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="./img/icon4.webp" alt="">
+                    </div>
+                    <h2>desktop wallet</h2>
+                    <div class="content">
+                        <p>
+                            Crypto portfolio manager with built 
+                            in analytics on coin trends, wallet 
+                            PNL information, token legitimacy checks, etc
+                        </p>
+                        <button>how it works</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="./img/icon4.webp" alt="">
+                    </div>
+                    <h2>web app</h2>
+                    <div class="content">
+                        <p>
+                            Access your Zenith Wallet via our web app 
+                        </p>
+                        <button>how it works</button>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="volumeFeature" id="volumeFeature">
+                <h1>discover new tokens</h1>
+                <p>Automatically get notified when a new token receives a high amount of volume 
+                    with our <span>Volume Alert Bot</span>. Perfect toolset for traders who want to keep an eye on
+                    small-cap projects and get live signals on influxes of volume.
+                </p>
+                <a href=""><button id="alert">try volume alert bot</button></a>
+            </aside>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="container">
+            <div class="flexSection" >
+                <div class="image">
+                    <img src="./img/verified.webp" alt="">
+                </div>
+                <div class="textContent">
+                    <h1>The <span>Swiss-army knife</span> of crypto trading<span>.</span></h1>
+                    <p>
+                        Zenith is a first of its kind, Wallet as a Service, designed to revolutionize 
+                        the way users engage and manage their portfolios.
+                        <br><br>
+                        With a full portfolio of features at your disposal along with tight integration within 
+                        Telegram, our user experience is augmented regardless of their background and technical 
+                        competencies.
+                    </p>
+                    <!-- <p>CA- 0x52d30b949BdBc63780E5A263CF436d4Df983Fe58</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>All rights reserved. &copy2023 <a href=""><span>Zenith Wallet</span></a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
